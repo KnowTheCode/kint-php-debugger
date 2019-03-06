@@ -4,7 +4,7 @@ Donate link: https://hellofromtonya.com
 Tags: debug, debugger, kint, var_dump, print_r, backtrace, trace, debug_backtrace
 Requires at least: 3.5
 Tested up to: 5.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,18 +22,18 @@ Some handy tools just for the PHP Developer:
 
 * `d( $var );` to render a collapsible UI container which displays your variable data in "the most informative way"
 * `ddd( $var );` same as d() except that it also executes `die()` to halt execution.
-See the [screenshot 1](http://wordpress.org/extend/plugins/kint-php-debugger/screenshots/) for more details.
 
-Here are some variations of d() to give you the display you want:
+Here are some variations of `d()` to give you the display you want:
 
-* '~d( $var );' outputs in plain text format.
-* '+d( $var );' disregards depth level limits and outputs everything
-* '!d( $var );' shows expanded rich output
-* '-d( $var );' attempts to ob_clean() the previous output (dump something inside of HTML)
+* `~d( $var );` outputs in plain text format.
+* `+d( $var );` disregards depth level limits and outputs everything
+* `!d( $var );` shows expanded rich output
+* `-d( $var );` attempts to ob_clean() the previous output (dump something inside of HTML)
 
 = Profiler =
 
 Kint even includes a naïve profiler, which can help you analyze which blocks of code take longer than others:
+
 `Kint::dump( microtime() ); // just pass microtime()
 sleep( 1 );
 Kint::dump( microtime(), 'after sleep(1)' );
@@ -41,6 +41,10 @@ sleep( 2 );
 ddd( microtime(), 'final call, after sleep(2)' );`
 
 See [screenshot 2](http://wordpress.org/extend/plugins/kint-php-debugger/screenshots/) for what is rendered out in your browser.
+
+== Admin Bar ==
+
+"KINT ACTIVE" indicator displays in the WordPress admin bar to alert you when the plugin is active.
 
 == Installation ==
 
@@ -83,9 +87,14 @@ Deactivate and delete this plugin.
 == Screenshots ==
 
 1. An example of what gets rendered in the browser when using 'd( $var )'.
-2. Profiler example from Kint.
+2. Profile example from Kint.
+3. "KINT ACTIVE" indicator in the WordPress admin bar.
 
 == ChangeLog ==
+
+= Version 1.2.1 =
+
+* Added "KINT ACTIVE" indicator to the WordPress admin bar to alert the plugin is activated.
 
 = Version 1.2.0 =
 
