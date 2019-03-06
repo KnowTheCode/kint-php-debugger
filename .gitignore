@@ -1,0 +1,5 @@
+# Development files
+/src/composer/
+/src/autoload.php
+
+.idea/
