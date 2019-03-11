@@ -11,7 +11,7 @@
  * Plugin Name:     Kint PHP Debugger
  * Plugin URI:      https://github.com/KnowTheCode/kint-php-debugger
  * Description:     Kint is a a modern and powerful PHP debugging helper, which requires zero-setup and replaces var_dump(), print_r() and debug_backtrace().  This plugin is a wrapper for Kint.
- * Version:         1.2.2
+ * Version:         2.0.2
  * Author:          hellofromTonya
  * Author URI:      https://KnowTheCode.io/
  * Text Domain:     wpkint
