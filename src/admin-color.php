@@ -12,18 +12,6 @@
 
 namespace KnowTheCode\Kint_PHP_Debugger;
 
-add_filter( 'get_user_option_admin_color', __NAMESPACE__ . '\set_local_development_admin_color_scheme', 5 );
-/**
- * Force different admin color scheme when this plugin is active.
- *
- * @since 1.2.1
- *
- * @return string
- */
-function set_local_development_admin_color_scheme() {
-	return 'coffee';
-}
-
 add_action( 'admin_bar_menu', __NAMESPACE__ . '\add_admin_bar_notice', 9999 );
 /**
  * Add an admin bar notice to alert user that they are in local development
