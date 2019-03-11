@@ -1,16 +1,4 @@
 <style type="text/css">
-	#wpadminbar {
-		background-color: %s !important;
-	}
-
-	#wp-admin-bar-environment-notice {
-		display: none;
-	}
-
-	#wpadminbar .ab-item,
-	#wpadminbar a.ab-item,
-	#wpadminbar > #wp-toolbar span.ab-label,
-	#wpadminbar > #wp-toolbar span.noticon,
 	.adminbar--environment-notice {
 		color: #fff;
 	}

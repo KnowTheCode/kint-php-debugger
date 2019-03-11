@@ -4,7 +4,8 @@ Donate link: https://hellofromtonya.com
 Tags: debug, debugger, kint, var_dump, print_r, backtrace, trace, debug_backtrace
 Requires at least: 3.5
 Tested up to: 5.1
-Stable tag: 1.2.2
+Stable tag: 2.0.1
+Requires PHP: 5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,8 +93,13 @@ Deactivate and delete this plugin.
 
 == ChangeLog ==
 
-= Version 1.2.2 =
-* Removed changing the admin theme to coffee.
+= Version 2.0.1 =
+* Removed changing the admin color palette to coffee.
+* Removed changing the admin bar background color.
+
+= Version 2.0.0 =
+* Updated Kint version.
+* Tested against WP 5.1
 
 = Version 1.2.1 =
 * Added "KINT ACTIVE" indicator to the WordPress admin bar to alert the plugin is activated.

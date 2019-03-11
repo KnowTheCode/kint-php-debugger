@@ -4,7 +4,7 @@
  * is activated, i.e. to differentiate that we are in development mode.
  *
  * @package     KnowTheCode\Kint_PHP_Debugger
- * @since       1.2.1
+ * @since       2.0.0
  * @author      hellofromTonya
  * @link        https://wordpress.org/plugins/kint-php-debugger/
  * @license     GNU-2.0+
@@ -17,7 +17,7 @@ add_action( 'admin_bar_menu', __NAMESPACE__ . '\add_admin_bar_notice', 9999 );
  * Add an admin bar notice to alert user that they are in local development
  * and this plugin is activated.
  *
- * @since 1.2.1
+ * @since 2.0.0
  *
  * @return void
  */
@@ -43,7 +43,7 @@ add_action( 'wp_head', __NAMESPACE__ . '\render_admin_bar_css', 9999 );
 /**
  * Render the admin bar CSS.
  *
- * @since 1.2.1
+ * @since 2.0.0
  *
  * @return void
  */
