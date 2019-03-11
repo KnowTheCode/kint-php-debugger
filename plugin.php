@@ -29,8 +29,9 @@ if ( class_exists( 'Kint' ) ) {
  * Gets the plugin's root directory.
  *
  * @since 1.2.1
+ * @access private
  *
- * @return string
+ * @return string Returns the plugin's root directory.
  */
 function _get_plugin_root_dir() {
 	return __DIR__;
