@@ -3,3 +3,5 @@
 /src/autoload.php
 
 .idea/
+
+.DS_Store
